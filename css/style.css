@@ -63,6 +63,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+}
 /* ==========  INDEX  ========== */
 
 /* ===========  HEDER  ========== */
@@ -140,20 +144,11 @@ body {
 .model-btn:focus {
   color: var(--accent-color);
 }
-/* .mail { */
-
-/* } */
-.mail::before {
-  display: inline-block;
-  content: '';
-  width: 16px;
-  height: 12px;
+.mail {
+  fill: current Color;
   margin-right: 10px;
-  background-color: var(--secondary-color);
 }
 .call {
-  width: 10px;
-  height: 16px;
   margin-right: 10px;
 }
 .tel-link {
@@ -277,7 +272,34 @@ body {
   margin-left: 30px;
   margin-top: 30px;
 }
+.social-icons-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--color-line);
+  color: #afb1b8;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-color);
+}
 
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: var(--color-line);
+}
+
+.social-list-icon {
+  fill: currentColor;
+}
 /* =========== and img-heading=========== */
 
 /* =========== cards=========== */
@@ -293,15 +315,26 @@ body {
   margin-left: -30px;
 }
 .cards-list {
-  flex-basis: calc(100% / 4 - 30px);
+  /* flex-basis: calc(100% / 4 - 30px); */
   margin-top: 30px;
   margin-left: 30px;
+  border: 1px solid #ececec;
 }
+
 .card-name-comand {
   text-align: center;
   padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 30px;
+
+  color: var(--color-line);
+  background: var(--color-line);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
+
 .name-list {
   font-weight: 500;
   font-size: 16px;
@@ -319,7 +352,7 @@ body {
   color: var(--secondary-color);
   /* text-align: center; */
   margin-top: 10px;
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
 }
 
 /* =========== and cards=========== */
@@ -364,12 +397,20 @@ body {
 .footer-navigation:not(:last-child) {
   margin-bottom: 9px;
 }
-
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.social-list-footer {
+  display: flex;
+  align-items: baseline;
+}
 /* ===========and footer=========== */
 
 /* ===========and index=========== */
 
 /* ===========portfolio=========== */
+
 /* ============ PORTFOLIO HEADER ======= */
 .portfolio-header {
   border: 1px solid #ececec;
