@@ -91,7 +91,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  margin-right: 93px;
+  /* margin-right: 93px; */
 }
 
 .studio-color {
@@ -144,20 +144,13 @@ body {
 .model-btn:focus {
   color: var(--accent-color);
 }
-.mail {
-  fill: current Color;
-  margin-right: 10px;
-}
-.call {
-  margin-right: 10px;
-}
+
 .tel-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-  /* margin-left: 50px; */
 }
 
 .tel-link:hover,
@@ -401,10 +394,43 @@ body {
   display: flex;
   align-items: baseline;
 }
+.connections-footer {
+  margin-left: 70px;
+}
+.connections {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-line);
+}
 .social-list-footer {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
+
+.social-list-footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--color-line);
+}
+.social-list-footer-icons:hover,
+.social-list-footer-icons:focus {
+  background-color: var(--accent-color);
+}
+.color-icons-footer {
+  fill: currentColor;
+}
+
 /* ===========and footer=========== */
 
 /* ===========and index=========== */
