@@ -10,6 +10,7 @@
   --hero-btn-color: #188ce8;
   --footer-bg-color: #2f303a;
   --color-card-studio: #f5f4fa;
+  --icons-color: #afb1b8;
 }
 
 h1,
@@ -91,7 +92,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  /* margin-right: 93px; */
+  margin-right: 93px;
 }
 
 .studio-color {
@@ -107,7 +108,7 @@ body {
 }
 
 .nav-list-item:not(:last-child) {
-  margin-right: 53px;
+  margin-right: 50px;
 }
 
 .nav-link {
@@ -145,6 +146,22 @@ body {
   color: var(--accent-color);
 }
 
+.mail {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+.model-btn:hover,
+.model-btn:focus {
+  color: var(--accent-color);
+}
+.tel {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 10px;
+}
 .tel-link {
   font-weight: 500;
   font-size: 14px;
@@ -188,7 +205,7 @@ body {
   width: 696px;
   margin: 0 auto;
 }
-/* .hero-btn */
+
 .hero-btn {
   background: var(--hero-btn-color);
   font-weight: 700;
@@ -203,9 +220,9 @@ body {
 .hero-btn:focus {
   background: var(--accent-color);
 }
-/* ===========and hero=========== */
+/* ===========AND HERO=========== */
 
-/* ===========advantages=========== */
+/* ===========ADVANTAGES=========== */
 .advantages {
   display: flex;
   flex-wrap: wrap;
@@ -213,9 +230,26 @@ body {
   /* margin-left: 30px; */
 }
 .advantages-heading-list {
-  margin-top: 94px;
-  /* margin-bottom: 94px; */
+  padding-top: 94px;
+  padding-bottom: 47px;
 }
+.advantages-list {
+  width: 270px;
+}
+.pictures-advantages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background-color: var(--color-card-studio);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.pic {
+  width: 70px;
+  height: 70px;
+}
+
 .advantages-list:not(:last-child) {
   margin-right: 30px;
 }
@@ -238,9 +272,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
-/* ===========and advantages=========== */
+/* ===========AND ADVANTAGES=========== */
 
-/* ===========img-heading=========== */
+/* ===========IMG-HEDING=========== */
 .img-heading {
   font-weight: 700;
   font-size: 36px;
@@ -293,9 +327,52 @@ body {
 .social-list-icon {
   fill: currentColor;
 }
-/* =========== and img-heading=========== */
+/* =========== AND IMG-HEDING=========== */
 
-/* =========== cards=========== */
+/* ============CLIENTS================ */
+.client {
+  margin-top: 94px;
+  /* background-color: tomato; */
+}
+.clients-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 94px;
+  /* background-color: teal; */
+}
+.clients-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clients-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-sizing: border-box; */
+  border: 1px solid var(--icons-color);
+  width: 170px;
+  height: 92px;
+
+  border-radius: 4px;
+}
+.clients-icon-logo {
+  width: 106px;
+  height: 60px;
+  fill: var(--icons-color);
+}
+.clients-item:hover .clients-icon-logo,
+.clients-item:focus .clients-icon-logo {
+  fill: var(--accent-color);
+}
+
+.clients-item:hover,
+.clients-item:focus {
+  border: 1px solid var(--accent-color);
+}
+/* ============ AND CLIENTS ================ */
+
+/* =========== CARDS =========== */
 .cards {
   background-color: var(--color-card-studio);
   padding-top: 94px;
@@ -348,9 +425,9 @@ body {
   margin-bottom: 30px;
 }
 
-/* =========== and cards=========== */
+/* =========== AND CARDS =========== */
 
-/* =========== footer=========== */
+/* =========== FOOTER =========== */
 .fon {
   background: var(--footer-bg-color);
   padding-top: 60px;
@@ -431,18 +508,18 @@ body {
   fill: currentColor;
 }
 
-/* ===========and footer=========== */
+/* ===========AND FOOTER=========== */
 
-/* ===========and index=========== */
+/* ===========AND INDEX=========== */
 
-/* ===========portfolio=========== */
+/* ===========PORTFOLIO=========== */
 
 /* ============ PORTFOLIO HEADER ======= */
 .portfolio-header {
   border: 1px solid #ececec;
 }
 
-/* ===========main=========== */
+/* ===========MAIN=========== */
 .portfolio-btn {
   display: flex;
   justify-content: center;
@@ -501,6 +578,6 @@ body {
   padding-left: 24px;
   padding-bottom: 20px;
 }
-/* ===========and main=========== */
+/* ===========AND MAIN=========== */
 
-/* ===========and portfolio=========== */
+/* ===========AND PORTFOLIO=========== */

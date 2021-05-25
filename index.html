@@ -17,10 +17,10 @@
 </head>
 
 <body>
-    <!--header-->
+                                                <!--header-->
 
     <header class="header">
-                        <!-- <nav > -->
+                                            <!-- <nav > -->
         <div class="container">
             <nav class="navigation">
                 <a class="logo-portfolio logo link " href="#" lang="en">
@@ -33,16 +33,16 @@
                 </ul>
             </nav>
             
-                        <!-- </nav> -->
+                                                    <!-- </nav> -->
             <ul class="navigation-list list">
-                <li class="nav-list-item heder-navigation-icons"><a class="model-btn link"
+                <li class="nav-list-item"><a class="model-btn link"
                         href="mailto:info@devstudio.com">
                         <svg class="mail" >
                             <use href="./images/svg-html/svg-heder/heder-icons.svg#icon-envelope-1"></use>
                         </svg>
                         info@devstudio.com</a></li>
-                <li class="heder-navigation-icons"><a class="tel-link link" href="tel:+380961111111">
-                        <svg class="mail">
+                <li class="nav-list-item"><a class="tel-link link" href="tel:+380961111111">
+                        <svg class="tel">
                             <use href="./images/svg-html/svg-heder/heder-icons.svg#icon-smartphone-1"></use>
                         </svg>
                     +38 096 111 11 11</a></li>
@@ -51,10 +51,10 @@
 
     </header>
 
-    <!--main-->
+                                                    <!--main-->
 
     <main>
-        <!--hero-->
+                                                    <!--hero-->
         <section class="background-color">
             <div class="heroes">
                 <div class="container">
@@ -64,15 +64,18 @@
             </div>
         </section>
 
-        <!--advantages-->
+                                                <!--advantages-->
         <section class="advantages-heading-list">
             <div class="container">
-                <div>
-
-                </div>
+                
                 <h2 class="visually-hidden">преимущества</h2>
                 <ul class="advantages list">
                     <li class="advantages-list">
+                        <div class="pictures-advantages">
+                            <svg class="pic">
+                                <use href= "./images/svg-html/svg-heroes/astronaft.svg#icon-antenna1-1"></use>
+                            </svg>
+                        </div>
                         <h3 class="advantages-heading">Внимание к деталям</h3>
                         <p class="advantages-paragraph">Идейные соображения, а также начало повседневной работы по
                             формированию позиции.
@@ -80,12 +83,22 @@
                     </li>
 
                     <li class="advantages-list">
+                        <div class="pictures-advantages">
+                            <svg class="pic">
+                                <use href="./images/svg-html/svg-heroes/closk.svg#icon-clock-1-1"></use>
+                            </svg>
+                        </div>
                         <h2 class="advantages-heading">Пунктуальность</h2>
                         <p class="advantages-paragraph">Задача организации, в особенности же рамки и место обучения
                             кадров влечет за собой.</p>
                     </li>
 
                     <li class="advantages-list">
+                        <div class="pictures-advantages">
+                            <svg class="pic">
+                                <use href="./images/svg-html/svg-heroes/astronaft.svg#icon-diagram3-1"></use>
+                            </svg>
+                        </div>
                         <h2 class="advantages-heading">Планирование</h2>
                         <p class="advantages-paragraph">Равным образом консультация с широким активом в значительной
                             степени
@@ -93,6 +106,11 @@
                     </li>
 
                     <li class="advantages-list">
+                        <div class="pictures-advantages">
+                            <svg class="pic">
+                                <use href="./images/svg-html/svg-heroes/astronaft.svg#icon-astronaut4-1"></use>
+                            </svg>
+                        </div>
                         <h2 class="advantages-heading">Современные технологии</h2>
                         <p class="advantages-paragraph">Значимость этих проблем настолько очевидна, что реализация
                             плановых заданий.</p>
@@ -102,7 +120,7 @@
 
         </section>
 
-        <!--img-heading-->
+                                                <!--img-heading-->
 
         <section class="heading-list">
             <div class="container">
@@ -119,7 +137,7 @@
 
         </section>
 
-        <!--Наша команда-->
+                                                <!--Наша команда-->
         <section class="cards">
             <div class="container">
                 <h2 class="img-heading">Наша команда</h2>
@@ -250,48 +268,64 @@
             </div>
 
         </section>
-        <section>
-            <div>
-                <h2>Постоянные клиенты</h2>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <svg>
-                                <use></use>
+                                            <!-- CLIENTS -->
+        <section class="client-section">
+            <div class="container">
+                <h2 class="img-heading client">Постоянные клиенты</h2>
+                <ul class="clients-logo list">
+                    <li class="clients-item">
+                        <a href="" class="clients-list-link">
+                            <svg class="clients-icon-logo">
+                                <use href= "./images/svg-html/svg-heroes/symbol-icons.svg#icon-Logo1"></use>
                             </svg>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-
-                        </a>
-                    </li>
+                    
+                        <li class="clients-item">
+                            <a href="" class="clients-list-link">
+                                <svg class="clients-icon-logo">
+                                    <use href="./images/svg-html/svg-heroes/symbol-icons.svg#icon-Logo2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li class="clients-item">
+                            <a href="" class="clients-list-link">
+                                <svg class="clients-icon-logo">
+                                    <use href="./images/svg-html/svg-heroes/symbol-icons.svg#icon-Logo3"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li class="clients-item">
+                            <a href="" class="clients-list-link">
+                                <svg class="clients-icon-logo">
+                                    <use href="./images/svg-html/svg-heroes/symbol-icons.svg#icon-Logo4"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li class="clients-item">
+                            <a href="" class="clients-list-link">
+                                <svg class="clients-icon-logo">
+                                    <use href="./images/svg-html/svg-heroes/symbol-icons.svg#icon-Logo5"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li class="clients-item">
+                            <a href="" class="clients-list-link">
+                                <svg class="clients-icon-logo">
+                                    <use href="./images/svg-html/svg-heroes/symbol-icons.svg#icon-Logo6"></use>
+                                </svg>
+                            </a>
+                        </li>
                 </ul>
             </div>
         </section>
     </main>
 
-    <!--contacts-->
+                                                    <!--contacts-->
 
     <footer class="fon">
         <div class="container footer-container">
