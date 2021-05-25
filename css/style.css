@@ -106,7 +106,10 @@ body {
 .nav-list .nav-link.current {
   color: var(--accent-color);
 }
-
+.nav-list-item {
+  display: flex;
+  align-items: center;
+}
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -141,11 +144,6 @@ body {
   color: var(--secondary-color);
 }
 
-.model-btn:hover,
-.model-btn:focus {
-  color: var(--accent-color);
-}
-
 .mail {
   width: 16px;
   height: 12px;
@@ -163,6 +161,9 @@ body {
   margin-right: 10px;
 }
 .tel-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
